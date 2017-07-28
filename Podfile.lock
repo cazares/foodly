@@ -1,0 +1,20 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - LHSCategoryCollection (0.0.22)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - Charts (~> 3.0.1)
+  - LHSCategoryCollection (~> 0.0)
+  - SVProgressHUD (~> 1.1)
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  LHSCategoryCollection: 738329e3b0f67a5f981c6e3eb102ce841c6e5ab6
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+PODFILE CHECKSUM: 0cf702464fdec42b7b6b034e73f6685a8818dcea
+
+COCOAPODS: 1.2.0.beta.3
