@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					734E46751F2AB9520016391A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5D6A59D6S4;
+						DevelopmentTeam = 7QRW68DD5X;
 						ProvisioningStyle = Automatic;
 					};
 					734E468B1F2AB9520016391A = {
@@ -415,7 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5D6A59D6S4;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = Foodly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
@@ -428,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5D6A59D6S4;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = Foodly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
@@ -510,6 +510,7 @@
 				734E46A21F2AB9520016391A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		734E46A31F2AB9520016391A /* Build configuration list for PBXNativeTarget "FoodlyTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				734E46A51F2AB9520016391A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		734E46A61F2AB9520016391A /* Build configuration list for PBXNativeTarget "FoodlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				734E46A81F2AB9520016391A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

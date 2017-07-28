@@ -15,6 +15,10 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         title = viewTitle
         
+        view.backgroundColor = topNavColor
+        
+        let searchBar = UISearchBar()
+        searchBar.translatesAutoresizingMaskIntoConstraints = false
         
     }
 }

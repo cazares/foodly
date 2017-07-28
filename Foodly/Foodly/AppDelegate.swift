@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         barAppearance.tintColor = .white
         
         let searchViewController = SearchViewController()
-        window?.rootViewController = searchViewController
+        let navController = UINavigationController(rootViewController: searchViewController)
+        window?.rootViewController = navController
         window?.makeKeyAndVisible()
         
         return true
@@ -47,7 +48,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         
     }
-
-
 }
 
