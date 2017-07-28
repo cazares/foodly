@@ -11,7 +11,6 @@
 		734E467C1F2AB9520016391A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E467B1F2AB9520016391A /* SearchViewController.swift */; };
 		734E467E1F2AB9520016391A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E467D1F2AB9520016391A /* MapViewController.swift */; };
 		734E46831F2AB9520016391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734E46821F2AB9520016391A /* Assets.xcassets */; };
-		734E46861F2AB9520016391A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734E46841F2AB9520016391A /* LaunchScreen.storyboard */; };
 		734E46911F2AB9520016391A /* FoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46901F2AB9520016391A /* FoodlyTests.swift */; };
 		734E469C1F2AB9520016391A /* FoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E469B1F2AB9520016391A /* FoodlyUITests.swift */; };
 		734E46AA1F2ABD040016391A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46A91F2ABD040016391A /* ListViewController.swift */; };
@@ -44,7 +43,6 @@
 		734E467B1F2AB9520016391A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		734E467D1F2AB9520016391A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		734E46821F2AB9520016391A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		734E46851F2AB9520016391A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734E46871F2AB9520016391A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		734E468C1F2AB9520016391A /* FoodlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		734E46901F2AB9520016391A /* FoodlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodlyTests.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				734E467D1F2AB9520016391A /* MapViewController.swift */,
 				734E46A91F2ABD040016391A /* ListViewController.swift */,
 				734E46821F2AB9520016391A /* Assets.xcassets */,
-				734E46841F2AB9520016391A /* LaunchScreen.storyboard */,
 				734E46871F2AB9520016391A /* Info.plist */,
 				734E46AB1F2ABE140016391A /* Constants.swift */,
 				734D14DD1F2ACE70003FFB34 /* Foodly-Bridging-Header.h */,
@@ -268,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734E46861F2AB9520016391A /* LaunchScreen.storyboard in Resources */,
 				734E46831F2AB9520016391A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,17 +377,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		734E46841F2AB9520016391A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				734E46851F2AB9520016391A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		734E469E1F2AB9520016391A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = Foodly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = Foodly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
