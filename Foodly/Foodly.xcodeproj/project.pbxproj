@@ -15,6 +15,7 @@
 		734E46911F2AB9520016391A /* FoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46901F2AB9520016391A /* FoodlyTests.swift */; };
 		734E469C1F2AB9520016391A /* FoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E469B1F2AB9520016391A /* FoodlyUITests.swift */; };
 		734E46AA1F2ABD040016391A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46A91F2ABD040016391A /* ListViewController.swift */; };
+		734E46AC1F2ABE140016391A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46AB1F2ABE140016391A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		734E469B1F2AB9520016391A /* FoodlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodlyUITests.swift; sourceTree = "<group>"; };
 		734E469D1F2AB9520016391A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		734E46A91F2ABD040016391A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		734E46AB1F2ABE140016391A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				734E46821F2AB9520016391A /* Assets.xcassets */,
 				734E46841F2AB9520016391A /* LaunchScreen.storyboard */,
 				734E46871F2AB9520016391A /* Info.plist */,
+				734E46AB1F2ABE140016391A /* Constants.swift */,
 			);
 			path = Foodly;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734E46AC1F2ABE140016391A /* Constants.swift in Sources */,
 				734E467E1F2AB9520016391A /* MapViewController.swift in Sources */,
 				734E467A1F2AB9520016391A /* AppDelegate.swift in Sources */,
 				734E46AA1F2ABD040016391A /* ListViewController.swift in Sources */,
