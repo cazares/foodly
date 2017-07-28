@@ -19,7 +19,6 @@ class SearchViewController: UIViewController {
         
         let searchBar = UISearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false
-        
     }
 }
 

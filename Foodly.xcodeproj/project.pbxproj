@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4C533A12E7048F015BFD4AC9 /* Pods_Foodly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734D14DD1F2ACE70003FFB34 /* Foodly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foodly-Bridging-Header.h"; sourceTree = "<group>"; };
 		734E46761F2AB9520016391A /* Foodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		734E46791F2AB9520016391A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		734E467B1F2AB9520016391A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				734E46841F2AB9520016391A /* LaunchScreen.storyboard */,
 				734E46871F2AB9520016391A /* Info.plist */,
 				734E46AB1F2ABE140016391A /* Constants.swift */,
+				734D14DD1F2ACE70003FFB34 /* Foodly-Bridging-Header.h */,
 			);
 			path = Foodly;
 			sourceTree = "<group>";
@@ -496,6 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mcazares/src/foodly/Foodly/Foodly-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -510,6 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cazares.Foodly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mcazares/src/foodly/Foodly/Foodly-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
