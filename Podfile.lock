@@ -1,4 +1,19 @@
 PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - Charts (3.0.2):
     - Charts/Core (= 3.0.2)
   - Charts/Core (3.0.2)
@@ -6,15 +21,17 @@ PODS:
   - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
+  - BlocksKit (~> 2.2)
   - Charts (~> 3.0.1)
   - LHSCategoryCollection (~> 0.0)
   - SVProgressHUD (~> 1.1)
 
 SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
   LHSCategoryCollection: 738329e3b0f67a5f981c6e3eb102ce841c6e5ab6
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
-PODFILE CHECKSUM: 0cf702464fdec42b7b6b034e73f6685a8818dcea
+PODFILE CHECKSUM: 12e96f6f353940ef5bea703ef80375c70967f5eb
 
 COCOAPODS: 1.2.0.beta.3

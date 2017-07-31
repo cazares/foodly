@@ -6,6 +6,7 @@ def shared_pods
 	pod 'LHSCategoryCollection', '~> 0.0'
 	pod 'SVProgressHUD', '~> 1.1'
 	pod 'Charts', '~> 3.0.1'
+	pod 'BlocksKit', '~> 2.2'
 	use_frameworks!
 end
 

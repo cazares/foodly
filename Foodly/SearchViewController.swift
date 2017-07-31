@@ -10,8 +10,8 @@ import UIKit
 
 class SearchViewController: UIViewController {
     let viewTitle = "Search Restaurants"
-    let searchWidth = CGFloat(100)
-    let searchHeight = CGFloat(40)
+    let searchWidth = CGFloat(300)
+    let searchHeight = CGFloat(34)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,19 +21,20 @@ class SearchViewController: UIViewController {
         
         let searchTextField = UITextField(frame: .zero)
         searchTextField.translatesAutoresizingMaskIntoConstraints = false
+        searchTextField.borderStyle = .roundedRect
+        searchTextField.returnKeyType = .search
+        searchTextField.tintColor = .black
+        searchTextField.bk_shouldReturnBlock = { _ in
+            searchTextField.resignFirstResponder()
+            return false
+        }
+        searchTextField.bk_didEndEditingBlock = { _ in
+            
+        }
         view.addSubview(searchTextField)
         
         view.lhs_centerHorizontally(for: searchTextField, width: searchWidth)
         view.lhs_centerVertically(for: searchTextField, height: searchHeight)
-        
-        let text = UILabel(frame: .zero)
-        text.translatesAutoresizingMaskIntoConstraints = false
-        text.text = "TEST"
-        view.addSubview(text)
-        
-        let views: [String: Any] = ["text": text]
-        view.lhs_addConstraints("H:|-[text]-|", views: views)
-        view.lhs_addConstraints("V:|-[text]-|", views: views)
     }
 }
 
