@@ -15,6 +15,12 @@
 		734E469C1F2AB9520016391A /* FoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E469B1F2AB9520016391A /* FoodlyUITests.swift */; };
 		734E46AA1F2ABD040016391A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46A91F2ABD040016391A /* ListViewController.swift */; };
 		734E46AC1F2ABE140016391A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734E46AB1F2ABE140016391A /* Constants.swift */; };
+		738CFE471F3E30980039FF3E /* app-icon@2x~iPad-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 738CFE441F3E30980039FF3E /* app-icon@2x~iPad-pro.png */; };
+		738CFE481F3E30980039FF3E /* app-icon~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 738CFE451F3E30980039FF3E /* app-icon~iPad.png */; };
+		738CFE491F3E30980039FF3E /* app-icon@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 738CFE461F3E30980039FF3E /* app-icon@2x~iPad.png */; };
+		73CCFBBC1F3E1DA700D9C816 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73CCFBB91F3E1DA700D9C816 /* app-icon.png */; };
+		73CCFBBD1F3E1DA700D9C816 /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73CCFBBA1F3E1DA700D9C816 /* app-icon@2x.png */; };
+		73CCFBBE1F3E1DA700D9C816 /* app-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73CCFBBB1F3E1DA700D9C816 /* app-icon@3x.png */; };
 		B1F76DC507BD5B93084C3B4A /* Pods_Foodly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C533A12E7048F015BFD4AC9 /* Pods_Foodly.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +58,12 @@
 		734E469D1F2AB9520016391A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		734E46A91F2ABD040016391A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		734E46AB1F2ABE140016391A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		738CFE441F3E30980039FF3E /* app-icon@2x~iPad-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x~iPad-pro.png"; sourceTree = "<group>"; };
+		738CFE451F3E30980039FF3E /* app-icon~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon~iPad.png"; sourceTree = "<group>"; };
+		738CFE461F3E30980039FF3E /* app-icon@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x~iPad.png"; sourceTree = "<group>"; };
+		73CCFBB91F3E1DA700D9C816 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		73CCFBBA1F3E1DA700D9C816 /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x.png"; sourceTree = "<group>"; };
+		73CCFBBB1F3E1DA700D9C816 /* app-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@3x.png"; sourceTree = "<group>"; };
 		79EF5EB2D9D696DB86B5117B /* Pods-Foodly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodly/Pods-Foodly.release.xcconfig"; sourceTree = "<group>"; };
 		BB1CAD7AE48C44C8AC7E8146 /* Pods-Foodly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodly/Pods-Foodly.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +133,7 @@
 				734E467D1F2AB9520016391A /* MapViewController.swift */,
 				734E46A91F2ABD040016391A /* ListViewController.swift */,
 				734E46821F2AB9520016391A /* Assets.xcassets */,
+				73CCFBBF1F3E1DAF00D9C816 /* images */,
 				734E46871F2AB9520016391A /* Info.plist */,
 				734E46AB1F2ABE140016391A /* Constants.swift */,
 				734D14DD1F2ACE70003FFB34 /* Foodly-Bridging-Header.h */,
@@ -144,6 +157,19 @@
 				734E469D1F2AB9520016391A /* Info.plist */,
 			);
 			path = FoodlyUITests;
+			sourceTree = "<group>";
+		};
+		73CCFBBF1F3E1DAF00D9C816 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				738CFE441F3E30980039FF3E /* app-icon@2x~iPad-pro.png */,
+				738CFE451F3E30980039FF3E /* app-icon~iPad.png */,
+				738CFE461F3E30980039FF3E /* app-icon@2x~iPad.png */,
+				73CCFBB91F3E1DA700D9C816 /* app-icon.png */,
+				73CCFBBA1F3E1DA700D9C816 /* app-icon@2x.png */,
+				73CCFBBB1F3E1DA700D9C816 /* app-icon@3x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		7E149C1E4C4CBA9E5AFA1C8D /* Frameworks */ = {
@@ -265,7 +291,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CCFBBE1F3E1DA700D9C816 /* app-icon@3x.png in Resources */,
+				73CCFBBC1F3E1DA700D9C816 /* app-icon.png in Resources */,
 				734E46831F2AB9520016391A /* Assets.xcassets in Resources */,
+				738CFE481F3E30980039FF3E /* app-icon~iPad.png in Resources */,
+				738CFE471F3E30980039FF3E /* app-icon@2x~iPad-pro.png in Resources */,
+				73CCFBBD1F3E1DA700D9C816 /* app-icon@2x.png in Resources */,
+				738CFE491F3E30980039FF3E /* app-icon@2x~iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
