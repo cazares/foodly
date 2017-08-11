@@ -18,8 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let barAppearance = UINavigationBar.appearance()
-        barAppearance.backgroundColor = topNavColor
+        barAppearance.barTintColor = topNavColor
         barAppearance.tintColor = .white
+        barAppearance.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        
+        application.isStatusBarHidden = false
+        application.statusBarStyle = .lightContent
         
         let searchViewController = SearchViewController()
         let navController = UINavigationController(rootViewController: searchViewController)

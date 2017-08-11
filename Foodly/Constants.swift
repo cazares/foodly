@@ -8,7 +8,7 @@
 
 import UIKit
 
-let topNavColor = UIColor.white
+let topNavColor: UIColor? = .red
 
 class Constants: NSObject {
     
